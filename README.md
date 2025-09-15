@@ -27,8 +27,8 @@ This app allows users to upload a CSV dataset, automatically generates insights,
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/yourusername/repo-name.git
-cd repo-name
+git clone https://github.com/Samima-Nasrin/EDA-agent.git
+cd EDA-agent
 ```
 
 2. Create a virtual environment (optional but recommended):
@@ -64,3 +64,8 @@ and start interacting with the AI assistant.
   - Review AI-generated summary
   - Click visualization titles to view graphs in sidebar
   - Explore AI insights
+
+---
+
+## Author
+Made by Samima Nasrin.
