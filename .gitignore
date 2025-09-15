@@ -31,7 +31,8 @@ conda-meta/
 .DS_Store
 Thumbs.db
 
-.chainlit/
+.chainlit/*
+!.chainlit/config.toml
 *.log
 
 *.csv

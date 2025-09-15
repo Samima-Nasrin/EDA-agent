@@ -19,7 +19,7 @@ except Exception as e:
     print(f"Gemini init failed: {e}")
 
 
-# -------------------- Helpers --------------------
+# Helpers
 
 def save_fig(fig):
     """Save matplotlib figure to a temp file and return path."""
@@ -42,7 +42,7 @@ def df_into_string(df, max_rows=5):
     return f"### Schema:\n```{schema}```\n\n### Preview:\n{head}\n\n### Missing Values:\n{missing_info}"
 
 
-# -------------------- Gemini analysis --------------------
+# Gemini analysis
 
 async def ai_text_analysis(prompt_type, df_context):
     if not GEMINI_AVAILABLE:
@@ -91,7 +91,7 @@ async def ai_vision_analysis(img_paths):
     return results
 
 
-# -------------------- Visualizations --------------------
+# Visualizations
 
 def generate_visuals(df):
     visualizations = []
@@ -173,7 +173,7 @@ async def cleanup(files):
             pass
 
 
-# -------------------- Chatbot --------------------
+# Chatbot
 
 @cl.on_chat_start
 async def start():
